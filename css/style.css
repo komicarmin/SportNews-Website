@@ -1,0 +1,114 @@
+html, body
+{
+	min-height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: URL('../images/bg1.jpg');
+	background-position: center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit- background-size: cover;
+	-moz- background-size: cover;
+	-o- background-size: cover;
+}
+
+#prijava
+{
+	width: 400px;
+    height: 200px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 10px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+	box-shadow: 0px 0px 12px #000000;
+}
+
+#registracija
+{
+	width: 400px;
+    height: 470px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 10px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -235px;
+    margin-left: -200px;
+	box-shadow: 0px 0px 12px #000000;
+}
+
+#logo
+{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 35px;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+#obrazec
+{
+	margin-top: -30px;
+}
+
+input[type="text"], input[type="password"]
+{
+	width: 300px;
+	height: 45px;
+	display: block;
+	margin: 0 auto;
+	border-width: 0px 0px 1px 0px;
+	border-color: black;
+	font-size: 20px;
+	text-align: center;
+}
+
+input[type="text"]:focus
+{
+	border-width: 0px 0px 2px 0px;
+	border-color: #57CA1F;
+	outline: none;
+}
+
+input[type="password"]:focus
+{
+	border-width: 0px 0px 2px 0px;
+	border-color: #0289A6;
+	outline: none;
+}
+
+input[type="submit"]
+{
+	width: 120px;
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 12px;
+	border-width: 0px 3px 0px 3px;
+	border-left-color: #57CA1F;
+	border-right-color: #0289A6;
+	background-color: white;
+	font-size: 15px;
+}
+
+input[type="submit"]:hover
+{
+	border-left-color: #0289A6;
+	border-right-color: #57CA1F;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder{color: #CCD6C9;}
+:-moz-placeholder{color: #CCD6C9;}
+::-moz-placeholder{color: #CCD6C9;}
+:-ms-input-placeholder{color: #CCD6C9;}
